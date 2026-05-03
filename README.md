@@ -3,7 +3,6 @@
 > Short-term wind power forecasting using physics-informed feature engineering on real SCADA turbine data — achieving **R² = 0.9868** with XGBoost.
 
  **Presented at ICTEAH-2026** | KJ Somaiya School of Engineering, Somaiya Vidyavihar University, Mumbai
- **Innovation Award** — CiiA-5, Nehru Science Centre, Mumbai (Feb 2026)
 
 ---
 
@@ -64,7 +63,7 @@ All metrics normalised to turbine rated capacity of 3618.7 kW.
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=58A6FF)
 ![XGBoost](https://img.shields.io/badge/XGBoost-0d1117?style=for-the-badge&logo=python&logoColor=58A6FF)
@@ -75,43 +74,25 @@ All metrics normalised to turbine rated capacity of 3618.7 kW.
 
 ---
 
-## 🚀 How to Run
+##  Visuals
 
-```bash
-# Clone the repo
-git clone https://github.com/ankitas134/wind-energy-forecasting
-cd wind-energy-forecasting
+### XGBoost Feature Importance
+![XGBoost Feature Importance](results/feature_importance.png)
 
-# Install dependencies
-pip install -r requirements.txt
+### XGBoost — Predicted vs Actual Power
+![XGBoost Prediction](results/xgboost_prediction.png)
 
-# Run preprocessing + training
-python src/preprocess.py
-python src/train.py
+### XGBoost Prediction Correlation (Entire Test Set)
+![Prediction Correlation](results/prediction_correlation.png)
 
-# Evaluate and generate plots
-python src/evaluate.py
-```
+### LightGBM — Predicted vs Actual Power
+![LightGBM Prediction](results/lightgbm_prediction.png)
 
----
+### Random Forest — Predicted vs Actual Power
+![Random Forest Prediction](results/random_forest_prediction.png)
 
-## Project Structure
-
-```
-wind-energy-forecasting/
-├── data/
-│   └── T1.csv                    # Raw SCADA dataset
-├── src/
-│   ├── preprocess.py             # Physics feature engineering pipeline
-│   ├── train.py                  # Model training (RF, LGBM, XGBoost, ANN)
-│   └── evaluate.py               # Metrics + visualisations
-├── notebooks/
-│   └── exploration.ipynb         # EDA and feature analysis
-├── results/
-│   └── figures/                  # Prediction plots, feature importance
-├── requirements.txt
-└── README.md
-```
+### ANN — Predicted vs Actual Power
+![ANN Prediction](results/ann_prediction.png)
 
 ---
 
@@ -128,7 +109,7 @@ wind-energy-forecasting/
 
 ---
 
-## 👩‍💻 Authors
+##  Authors
 
 - Anjnney Salvi
 - Aarushee Pandagare
@@ -138,6 +119,6 @@ wind-energy-forecasting/
 
 ---
 
-## 📜 License
+##  License
 
 MIT License — see [LICENSE](LICENSE) for details.
