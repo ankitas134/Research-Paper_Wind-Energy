@@ -3,6 +3,7 @@
 > Short-term wind power forecasting using physics-informed feature engineering on real SCADA turbine data — achieving **R² = 0.9868** with XGBoost.
 
  **Presented at ICTEAH-2026** | KJ Somaiya School of Engineering, Somaiya Vidyavihar University, Mumbai
+ **Innovation Award** — CiiA-5, Nehru Science Centre, Mumbai (Feb 2026)
 
 ---
 
@@ -73,26 +74,6 @@ All metrics normalised to turbine rated capacity of 3618.7 kW.
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-0d1117?style=for-the-badge&logo=python&logoColor=58A6FF)
 
 ---
-
-##  Visuals
-
-### XGBoost Feature Importance
-![XGBoost Feature Importance](results/feature_importance.png)
-
-### XGBoost — Predicted vs Actual Power
-![XGBoost Prediction](results/xgboost_prediction.png)
-
-### XGBoost Prediction Correlation (Entire Test Set)
-![Prediction Correlation](results/prediction_correlation.png)
-
-### LightGBM — Predicted vs Actual Power
-![LightGBM Prediction](results/lightgbm_prediction.png)
-
-### Random Forest — Predicted vs Actual Power
-![Random Forest Prediction](results/random_forest_prediction.png)
-
-### ANN — Predicted vs Actual Power
-![ANN Prediction](results/ann_prediction.png)
 
 ---
 
